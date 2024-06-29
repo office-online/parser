@@ -8,7 +8,8 @@ const umdOutput = {
     sourcemap: true,
     format: 'umd',
     globals: {
-        zip: '@zip.js/zip.js',
+        '@zip.js/zip.js': 'zip',
+        cheerio: 'cheerio',
     }
 };
 

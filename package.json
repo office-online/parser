@@ -17,13 +17,16 @@
     "url": "git+https://github.com/millet0328/docx-preview-sync.git"
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.7.43"
+    "@zip.js/zip.js": "^2.7.43",
+    "cheerio": "^1.0.0-rc.12",
+    "htmlparser2": "^9.1.0"
   },
   "devDependencies": {
     "@rollup/plugin-run": "^3.0.2",
     "@rollup/plugin-strip": "^3.0.4",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
+    "@types/cheerio": "^0.22.35",
     "diff": "^5.0.0",
     "jasmine-core": "^5.1.0",
     "karma": "^6.3.9",
